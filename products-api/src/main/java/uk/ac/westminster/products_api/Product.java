@@ -26,9 +26,11 @@ public class Product {
         this.price = price;
     }
 
-//    public Long getId() { return id; }
+    public Long getId() { return id; }
 
     public String getName() { return name; }
 
     public double getPrice() { return price; }
+
+
 }
