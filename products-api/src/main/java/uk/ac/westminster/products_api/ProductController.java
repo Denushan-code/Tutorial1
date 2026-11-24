@@ -31,9 +31,9 @@ public class ProductController {
     }
 
     @PostMapping("/products")
-    public Product addProduct(@RequestBody Product product) {
-        return productService.addProduct(product);
+    public Product addProduct(@RequestBody DigitalProduct  product) {return productService.addProduct(product);
     }
+//    this is a temporary fix
 
     @DeleteMapping("/products/{id}")
     public void deleteProduct(@PathVariable Long id) {
