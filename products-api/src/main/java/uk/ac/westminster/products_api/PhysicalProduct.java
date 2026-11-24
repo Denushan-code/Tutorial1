@@ -21,3 +21,4 @@ public class PhysicalProduct extends Product {
         this.dimensions = dimensions;
     }
 }
+//
